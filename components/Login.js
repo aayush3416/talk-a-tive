@@ -1,6 +1,6 @@
 import { AiFillWechat } from "react-icons/ai";
 import Head from "next/head";
-import { Box, Button, Center, Stack, Flex, Heading} from "@chakra-ui/react";
+import { Box, Button, Center, Stack, Flex, Heading, Text} from "@chakra-ui/react";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import { auth } from "../firebaseconfig";
 
@@ -9,7 +9,6 @@ export default function Login() {
 
   return (
     <>
-      
       <Head>
         <title>Login</title>
       </Head>
@@ -44,6 +43,9 @@ export default function Login() {
           </Button>
         </Stack>
       </Center>
+      <Flex w="100%" align="center" justifyContent="center" bgColor="green.100">
+        <Text marginBottom={15} fontWeight='semibold'>Created By Aayush Soni</Text>
+      </Flex>
     </>
   );
 }
