@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TALK-A-TIVE
+> Talk with friends & family through this real-time chat application
+
+## Technologies
+To create this project, I used a Nextjs(React framework), google firebase and vercel to deploy the app. I implemented google authentication using firebase and also utilized react firebase hooks.
+
+## Demo
+
+
+
+
+
+
+
 
 ## Getting Started
 
